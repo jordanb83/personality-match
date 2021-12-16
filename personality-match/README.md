@@ -9,6 +9,7 @@ Soon, I'll implement a single test that determines the user's three personality 
 Until then, you can find your indicators with these tests:
 
 https://www.16personalities.com
+
 https://www.eclecticenergies.com/enneagram/test-2
 
  
