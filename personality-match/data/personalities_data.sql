@@ -1,4 +1,5 @@
-create database personalities
+create database personalities;
+
 create table Personalities (
   notable_figure varchar2(150),  
   mbti_evsi varchar2(1), 
