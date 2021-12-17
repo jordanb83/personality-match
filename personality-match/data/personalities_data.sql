@@ -17,3 +17,11 @@ with (
 );
 
 select count(notable_figure) as total_notable_figures from Personalities;
+select count(mbti_evsi) as total_extroverts from Personalities where mbti_evsi = 'E';
+select count(mbti_evsi) as total_introverts from Personalities where mbti_evsi = 'I';
+select count(mbti_svsn) as total_sensers from Personalities where mbti_evsi = 'S';
+select count(mbti_svsn) as total_intuitives from Personalities where mbti_evsi = 'N';
+select count(mbti_tvsf) as total_thinkers from Personalities where mbti_evsi = 'T';
+select count(mbti_tvsf) as total_feelers from Personalities where mbti_evsi = 'F';
+select count(mbti_pvsj) as total_perceptives from Personalities where mbti_evsi = 'P';
+select count(mbti_pvsj) as total_judgers from Personalities where mbti_evsi = 'J';
