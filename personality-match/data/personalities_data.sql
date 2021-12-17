@@ -10,8 +10,10 @@ create table Personalities (
 );
 
 insert into Personalities
-from 'personality-match\personality-data.csv'
+from 'personality-match\data\personality-data.csv'
 with (
   format='CSV',
   firstrow=2
 );
+
+select count(notable_figure) as total_notable_figures from Personalities;
